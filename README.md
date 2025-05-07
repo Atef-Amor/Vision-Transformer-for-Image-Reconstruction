@@ -1,7 +1,4 @@
 # Vision-Transformer-for-Image-Reconstruction
-This repository implements a Vision Transformer (ViT) model for image reconstruction using masking techniques, as part of a data mining project. The project applies self-supervised learning inspired by Natural Language Processing (NLP) to computer vision, leveraging the CIFAR-10 dataset. The ViT model reconstructs images by predicting masked patches, and its performance is compared to a classical autoencoder baseline using metrics such as Mean Squared Error (MSE), Structural Similarity Index (SSIM), and Peak Signal-to-Noise Ratio (PSNR).
-Project Overview
-
 The project focuses on image reconstruction using Vision Transformers (ViTs) with masking, an innovative approach that adapts Transformer models from NLP to computer vision. Images are divided into patches, treated as sequential tokens, and partially masked to train the model to reconstruct missing patches. Unlike classical autoencoders that compress images into a latent space, ViTs use contextual information from visible patches to predict masked ones, capturing long-range dependencies. The project tests various masking strategies and compares ViT performance against an autoencoder baseline.
 
 ## Features
