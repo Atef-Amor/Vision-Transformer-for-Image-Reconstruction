@@ -11,12 +11,12 @@ The project focuses on image reconstruction using Vision Transformers (ViTs) wit
 -Learning Rate Scheduling: Incorporates ReduceLROnPlateau for adaptive training.
 
 ## Requirements
-Python 3.8+
-TensorFlow 2.8+
-NumPy
-Matplotlib
-Scikit-image
-TQDM
+-Python 3.8+
+-TensorFlow 2.8+
+-NumPy
+-Matplotlib
+-Scikit-image
+-TQDM
 
 ## Dataset
 The project uses the CIFAR-10 dataset, containing 60,000 32x32 RGB images (50,000 training, 10,000 testing) across 10 classes. The dataset is loaded and preprocessed using tf.keras.datasets.cifar10.load_data().
